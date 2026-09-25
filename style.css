@@ -1,0 +1,145 @@
+html {
+    background-image: url('img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #05070b;
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    margin-top: 25px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 25px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#progress {
+    display: block;
+}
+
+#menu {
+    display: block;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#crypto {
+    display: none;
+}
+
+#tools {
+    display: none;
+}
+
+#lnx {
+    display: none;
+}
+
+#mods {
+    display: none;
+}
+
+/* Main Buttons */
+.btn {
+    background: linear-gradient(135deg, #0068c9, #003b78);
+    color: white;
+    width: 227px;
+    height: 46px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid rgba(0, 150, 255, 0.45);
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.45);
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #0088ff, #0054a6);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 140, 255, 0.45);
+}
+
+/* Contact / Social Button */
+.btn-onln {
+    background: linear-gradient(135deg, #087f3b, #075322);
+}
+
+.btn-onln:hover {
+    background: linear-gradient(135deg, #16a34a, #08752f);
+}
+
+/* Toolbox */
+.btn-toolbox {
+    background: linear-gradient(135deg, #ae2301, #711600);
+}
+
+.btn-toolbox:hover {
+    background: linear-gradient(135deg, #d42a01, #921b00);
+}
+
+/* PS5 */
+.btn-ps5 {
+    background: linear-gradient(135deg, #3d3f4e, #20222b);
+}
+
+.btn-ps5:hover {
+    background: linear-gradient(135deg, #666a7a, #30323c);
+    color: white;
+}
+
+/* Store title */
+#msgs {
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow:
+        0 0 8px #008cff,
+        0 3px 12px #000;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    #msgs {
+        font-size: 25px;
+    }
+
+    .btn {
+        width: 90%;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    html {
+        background-position: center;
+        background-attachment: scroll;
+    }
+}

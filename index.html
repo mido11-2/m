@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html><head>
+<title>Yousef Store | PlayStation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script>
+var histlength=history.length;history.go(-histlength 2);
+</script>
+<h1 id=msgs>Yousef Store | PlayStation</h1>
+<p class="store-subtitle">بيع • شراء • صيانة أجهزة PlayStation | 01555371568</p>
+
+<br>
+<div id=menu>
+<h1 style="font-size: 18px;color: yellow;">اختر نظام جهازك</h1>
+<button class="btn" onmouseover="msgs.innerHTML='PS4 5.05 FW GoldHEN Host'" onmouseout="msgs.innerHTML='Yousef Store | PlayStation'" onclick="location.replace('505goldhen/index.html')"> GoldHEN لنظام 5.05 </button>
+<button class="btn" onmouseover="msgs.innerHTML='PS4 5.05 FW Host v2.5'" onmouseout="msgs.innerHTML='Yousef Store | PlayStation'" onclick="location.replace('505/index.html')"> نظام 5.05 الإصدار v2.5 </button>
+<br>
+<a href="672goldhen/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 6.72 FW GoldHEN Host'" onmouseout="msgs.innerHTML='Yousef Store | PlayStation'"> GoldHEN لنظام 6.72 </button></a>
+<a href="672/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 6.72 FW Host v3.0'" onmouseout="msgs.innerHTML='Yousef Store | PlayStation'"> نظام 6.72 الإصدار v3.0 </button></a>
+<a href="702/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 7.02 FW Host v1.4'" onmouseout="msgs.innerHTML='Yousef Store | PlayStation'"> نظام 7.02 الإصدار v1.4 </button></a>
+<a href="75x/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 7.50 - 7.55 FW Host v1.5'" onmouseout="msgs.innerHTML='Yousef Store | PlayStation'"> نظام 7.50 - 7.55 الإصدار</button></a>
+<br>
+<a href="g2all/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 7.00 - 13.52 FW GoldHEN Host'" onmouseout="msgs.innerHTML='Yousef Store | PlayStation'">  لنظام 7.00 - 13.52 </button></a>
+
+
+<a href="900goldhen/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 9.00 FW GoldHEN Host - (FontFaceSet Webkit)'" onmouseout="msgs.innerHTML='Yousef Store | PlayStation'"> GoldHEN لنظام 9.00 </button></a>
+<a href="900v2/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 9.00 FW Host v2.8 with Manual Exploitation - (FontFaceSet Webkit)'" onmouseout="msgs.innerHTML='Yousef Store | PlayStation'"> نظام 9.00 الإصدار  | يدوي </button></a>
+<a href="900v3/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 9.00 FW Host v3.0 with Automatic Exploitation - (FontFaceSet Webkit)'" onmouseout="msgs.innerHTML='Yousef Store | PlayStation'"> نظام 9.00 الإصدار | تلقائي </button></a>
+<br>
+<button class="btn" onmouseover="msgs.innerHTML='Restore a Host to User’s Guide without using DNS'" onmouseout="msgs.innerHTML='Yousef Store | PlayStation'" onclick="location.replace('restore/index.html')"> استعادة المضيف </button>
+<br>
+<button class="btn btn-onln" onclick="window.location.href='tel:01555371568'" style="margin-top: 70px;margin-bottom: 15px;width: 468px;">📞 اتصل بـ Yousef Store: 01555371568</button>
+<h1 style="margin-top: 78px;"></h1>
+</div>
+<div id=crypto>
+<h1 style="font-size: 18px;color: yellow;"></h1>
+<img src="btc.jpg" width="150" height="150">
+<br>
+<h1 style="font-size: 18px;"></h1>
+<br>
+<h1 style="font-size: 18px;color: yellow;"></h1>
+<img src="eth.jpg" width="150" height="150">
+<h1 style="font-size: 18px;"></h1>
+<button class="btn" onclick="load_menu()"> رجوع </button>
+</div>
+<script>
+function donations(){
+document.getElementById("crypto").style.display = "block";
+document.getElementById("menu").style.display = "none";
+}
+
+function load_menu(){
+document.getElementById("menu").style.display = "block";
+document.getElementById("crypto").style.display = "none";
+}
+</script>
+</body>
+</html>
